@@ -37,7 +37,7 @@ public class Translator {
                 if (Arrays.asList(konsonanter).contains(letter.toUpperCase())){
                     newTranslatedArray.add(letter);
                     newTranslatedArray.add("o");
-                    newTranslatedArray.add(letter);
+                    newTranslatedArray.add(letter.toLowerCase());
                 }
                 else {
                     newTranslatedArray.add(letter);

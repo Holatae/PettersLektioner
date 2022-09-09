@@ -9,7 +9,13 @@ public class Program {
         System.out.println("1. Translate to piratespeech from swedish");
         System.out.println("2. translate from piratespeech to swedish");
 
-        int input = scanner.nextInt();
+        int input = 0;
+        try {
+            input = scanner.nextInt();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
         switch (input){
             case 1:
                 translateToPirate();
@@ -17,7 +23,9 @@ public class Program {
             case 2:
                 translateToSwedish();
                 break;
-
+            default:
+                translateToPirate();
+                break;
         }
     }
 
