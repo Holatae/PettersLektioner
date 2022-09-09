@@ -32,6 +32,7 @@ public class Program {
     private void translateToPirate(){
         System.out.println("What is the Swedish string?");
         String swedishString = scanner.next();
+        swedishString += scanner.nextLine();
         Translator translator = new Translator();
 
         translator.setSwedishString(swedishString);
@@ -41,6 +42,7 @@ public class Program {
     private void translateToSwedish(){
         System.out.println("What is the Pirate String");
         String pirateString = scanner.next();
+        pirateString += scanner.nextLine();
         Translator translator = new Translator();
 
         translator.setPirateString(pirateString);

@@ -53,7 +53,7 @@ public class Translator {
         for (String letter: pirateArray
              ) {
             if (index + 2 >= pirateArray.length){ break;}
-            if(letter.compareTo(pirateArray[index + 2 ]) == 0 &&
+            if(letter.toLowerCase().compareTo(pirateArray[index + 2 ]) == 0 &&
                     pirateArray[index + 1].compareTo("o") == 0){
                 pirateArray[index + 1] = "";
                 pirateArray[index + 2] = "";

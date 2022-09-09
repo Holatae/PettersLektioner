@@ -87,7 +87,7 @@
       <updated>1662453497994</updated>
       <workItem from="1662453499394" duration="3436000" />
       <workItem from="1662494594001" duration="598000" />
-      <workItem from="1662535682536" duration="11562000" />
+      <workItem from="1662535682536" duration="12057000" />
     </task>
     <task id="LOCAL−00001" summary="Git ignore">
       <created>1662636370268</created>
@@ -101,7 +101,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1662636473342</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Made a try/catch block to stop crashes, and fixerd a bug that made capital letters appear everywhere">
+      <created>1662707017697</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1662707017697</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +116,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Git ignore" />
     <MESSAGE value="Sjörövarspråket" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sjörövarspråket" />
+    <MESSAGE value="Made a try/catch block to stop crashes, and fixerd a bug that made capital letters appear everywhere" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made a try/catch block to stop crashes, and fixerd a bug that made capital letters appear everywhere" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tre/uppgifter/sjörövarspråket/Translator.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tre/uppgifter/sjörövarspråket/Translator.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
